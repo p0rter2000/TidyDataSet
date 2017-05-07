@@ -1,21 +1,32 @@
-Tidy Dataset taken from UC Irvine's Human Activity Recognition Using Smartphones Data Set.
 
-The tidy dataset (TidyData.csv) contains the following variables (columns):
+Column 1
 
-1 - ActivityLabels
-	A description of the activity performed by the subject.
-	The activities are :
+	ActivityLabels
+	
+	A description of the activity performed by the subject
+	
+	The activities are:
+	
 	1. WALKING
 	2. WALKING_UPSTAIRS
 	3. WALKING_DOWNSTAIRS
 	4. SITTING
 	5. STANDING
-	6. LAYING
-2 - Subjects
-	An ID number of the subject who performed the activity.
-	Test Subject IDs ranged from 2-24.
+	6. LAYING	
+
+Column 2
+
+	Subjects
+	
+	An ID number of the subject who performed the activity
+	
+	Test Subject IDs ranged from 2-24
+	
 	Training Subject IDs ranged from 1-30.
-3 - 88	tBodyAcc-mean()-X
+
+Columns 3-88
+  
+	tBodyAcc-mean()-X
 	tBodyAcc-mean()-Y
 	tBodyAcc-mean()-Z
 	tGravityAcc-mean()-X

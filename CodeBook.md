@@ -1,3 +1,5 @@
+Tidy Dataset taken from UC Irvine's Human Activity Recognition Using Smartphones Data Set.
+The tidy dataset (TidyData.csv) contains the following variables (columns):
 
 Column 1
 

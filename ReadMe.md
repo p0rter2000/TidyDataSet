@@ -52,6 +52,8 @@ The dataset that is produced from the run_analysis.R script conforms to the 3 ru
 3. Each value has its own cell.
 
 Use the following to read and view the created tidy dataset txt file
-TidyData <- read.table("TidyData.txt"
+
+TidyData <- read.table("TidyData.txt")
+
 View(TidyData)
 

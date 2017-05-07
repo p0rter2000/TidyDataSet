@@ -82,11 +82,11 @@ TestTrainGroups <- group_by(TestTrainMuSigma,ActivityLabels,Subjects)
 # Take the mean of each variable grouped by activity and subject
 ActivityMeans <- summarise_each(TestTrainGroups,funs(mean))
 
-# write new tidy data set to csv file
-write.csv(ActivityMeans, file = "TidyData.csv",row.names=TRUE)
+# write new tidy data set to tab delimited txt file
+write.table(ActivityMeans, file = "TidyData.txt",sep="\t",row.name=FALSE)
 
 # Load and view the tidy dataset
-TidyData <- read.csv("TidyData.csv")
+TidyData <- read.table("TidyData.txt")
 View(TidyData)
 
 
